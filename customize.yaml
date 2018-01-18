@@ -1,0 +1,6 @@
+sensor.coinbase_btc_spot_price:
+  unit_of_measurement: EUR
+sensor.coinbase_eth_spot_price:
+  unit_of_measurement: EUR
+sensor.coinbase_ltc_spot_price:
+  unit_of_measurement: EUR
