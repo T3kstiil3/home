@@ -1,0 +1,19 @@
+living_room:
+  name: Salon
+  view: yes
+  entities:
+
+bedroom:
+  name: Chambre
+  view: yes
+  entities:
+
+kitchen:
+  name: Cuisine
+  view: yes
+  entities:
+
+wc:
+  name: WC
+  view: yes
+  entities:

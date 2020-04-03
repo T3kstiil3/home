@@ -1,0 +1,83 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 50.633
+  longitude: 3.0586
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Paris
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+# introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+http:
+
+updater:
+  
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+notify:
+  - name: pushbullet
+    platform: pushbullet
+    api_key: !secret pushbullet_api_key
+
+# Sensor
+sensor:
+  - platform: yr
+  
+  - platform: command_line
+    name: Coinbase BTC Spot Price
+    command: "curl https://api.coinbase.com/v2/prices/BTC-EUR/spot"
+    unit_of_measurement: "EUR"
+    value_template: '{{ value_json["data"]["amount"] }}'
+
+switch:
+  
+# Text to speech
+tts:
+  - platform: google
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+zwave:
+
+hue:
+  bridges:
+    - host: DEVICE_IP_ADDRESS
+
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - key: xxxxxxxxxxxxxxxx
+
+xee:
