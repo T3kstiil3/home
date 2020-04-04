@@ -1,1 +1,15 @@
 .DS_Store
+
+# Generic ignores
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.pyc
+._*
+__pycache__
+
+# Ignore files created by IDE's
+.vscode
+.theia
+.Trash*

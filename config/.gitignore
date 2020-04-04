@@ -4,3 +4,8 @@
 !.gitignore
 secrets.yaml
 known_devices.yaml
+
+# Directory (contents) ignores
+.cloud
+.storage
+deps
