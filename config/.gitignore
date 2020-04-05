@@ -3,6 +3,7 @@
 !.gitignore
 secrets.yaml
 known_devices.yaml
+.HA_VERSION
 
 # Directory (contents) ignores
 .cloud
