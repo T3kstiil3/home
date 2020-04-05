@@ -1,0 +1,16 @@
+---
+#
+# Customizes the coinbase custom sensor
+#
+# https://www.home-assistant.io/docs/configuration/customizing-devices/
+#
+
+sensor.coinbase_btc_spot_price:
+  unit_of_measurement: EUR
+
+sensor.coinbase_eth_spot_price:
+  unit_of_measurement: EUR
+
+sensor.coinbase_ltc_spot_price:
+  unit_of_measurement: EUR
+  
