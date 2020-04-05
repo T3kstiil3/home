@@ -1,0 +1,8 @@
+---
+# I use the command_line plateform to get Bitcoin prise
+#
+platform: command_line
+name: Coinbase BTC Spot Price
+command: "curl https://api.coinbase.com/v2/prices/BTC-EUR/spot"
+unit_of_measurement: "EUR"
+value_template: '{{ value_json["data"]["amount"] }}'
