@@ -13,4 +13,3 @@ sensor.coinbase_eth_spot_price:
 
 sensor.coinbase_ltc_spot_price:
   unit_of_measurement: EUR
-  
