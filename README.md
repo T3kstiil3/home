@@ -8,6 +8,15 @@
 
 > This is my personal Home Assistant configuration, running my home automations.
 
+## Documentations
+
+### Zigbee connector with deconz
+
+[ConBee II USB universal Zigbee](https://amzn.to/3l6XWnw)
+
+https://phoscon.de/en/conbee/install#docker
+
+
 ## Author
 
 👤 **Aurelien Loyer**
