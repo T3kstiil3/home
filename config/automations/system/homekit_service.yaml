@@ -1,0 +1,13 @@
+---
+alias: Start HomeKit
+description: >-
+  Start HomeKit service after 2 minutes
+  To be sure all components are ready
+
+trigger:
+  - platform: homeassistant
+    event: start
+
+action:
+  - service: homekit.start
+  - delay: 00:02

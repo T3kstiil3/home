@@ -1,6 +1,22 @@
 .DS_Store
 !.gitkeep
 
+# Config part 🤖
+
+config/!*.yaml
+config/!scenes
+config/!.gitignore
+config/secrets.yaml
+config/known_devices.yaml
+config/.HA_VERSION
+
+## Directory (contents) ignores
+config/.cloud
+config/.storage
+config/deps
+
+config/secrets.yaml
+
 # Generic ignores
 *.log
 *.db
