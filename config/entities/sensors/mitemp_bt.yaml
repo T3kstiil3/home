@@ -1,0 +1,15 @@
+
+---
+# Xiaomi Mijia BLE Temperature and Humidity Sensor
+# How to buy : https://amzn.to/3jtCXeh
+# How to configure : https://www.home-assistant.io/integrations/mitemp_bt/
+
+platform: mitemp_bt
+mac: 'A4:C1:38:15:36:CB'
+name: Some Room MiTemp
+# force_update: true
+# median: 3
+monitored_conditions:
+  - temperature
+  - humidity
+  - battery

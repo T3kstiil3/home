@@ -1,0 +1,9 @@
+---
+platform: mitemp_bt
+mac: 'A4:C1:38:89:52:5F'
+name: Other Room MiTemp
+monitored_conditions:
+  - temperature
+  - humidity
+  - battery
+

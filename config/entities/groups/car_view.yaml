@@ -1,0 +1,7 @@
+---
+car_view:
+  name: Car
+  icon: mdi:car
+  entities:
+  - camera.car
+  - group.car

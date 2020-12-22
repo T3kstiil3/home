@@ -1,0 +1,15 @@
+---
+car:
+  name: DS3 Stats
+  entities:
+    - sensor.car_lock
+    - sensor.car_lights
+    - sensor.car_speed
+    - sensor.car_fuel      
+    - sensor.car_battery
+    - sensor.car_pressure
+    - sensor.car_total_km
+    - sensor.car_update_date
+    - sensor.car_engine_state
+    - sensor.car_latitude
+    - sensor.car_longitude

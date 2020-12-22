@@ -1,0 +1,11 @@
+---
+# Logger
+#
+# https://www.home-assistant.io/integrations/logger/
+#
+logger:
+  default: info
+  logs:
+    pydeconz: debug
+    homeassistant.components.deconz: debug
+    homeassistant.components.homekit: debug
